@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<div class="box"></div>
+</head>
+<body>
+<style>
+
+.box{
+	 position: absolute;
+	 margin: auto;
+	 top: 0px	;
+	 bottom: 485px;
+	 right: 0px;
+	 left: 0px;
+	 background-color: green;
+    width: 100px;
+    height: 100px;
+	border-radius: 10px;
+    
+}
+
+.box:hover{
+	width:100px;
+	background-color: orange;
+	transition-property: border-radius;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay:0s;
+	animation-name:transition;
+	animation-duration:1s;
+	border-radius: 100px;
+}
+@keyframes transition{
+0%   {background-color: green;}
+    100% {background-color: orange;}
+}
+</style>
+<div>
+<p>BOX</p>
+</div>
+<style>
+
+p{
+position: relative;
+left:742px;
+right 100px;
+top:100px;
+bottom:500px;
+font-size:18px;
+color:white;
+}
+</style>
+</body>
+</html>
