@@ -1,0 +1,29 @@
+img {
+	
+	position: relative;
+	top: 10px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+    margin: auto;
+}
+
+span {
+	
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+    margin: auto;
+}
+
+div {
+	
+	position: absolute;
+	top: 130px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+    margin: auto;
+}
