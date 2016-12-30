@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel='stylesheet' href='registration.css' type='text/css'/>
+<script>
+	function submitFunction()
+{
+	var x=document.forms["myForm"]["userid"].value;
+	var y=document.forms["myForm"]["passid"].value;
+	if(x==null||x==""||y==null||y=="")
+	{
+		alert("Both fields can't be empty..");
+	}
+	else{
+		if(x=="kumar")
+		{
+			if(y=="123456")
+			{
+				alert("Login Successful");
+			}
+			else{
+				alert("Password does not match");
+			}
+		}
+		else{
+			alert("User does not exist");
+		}
+	}
+}
+
+</script>
+</head>
+<center><body>
+<h1>MySelfieTech</h1>
+<form name="myForm" onsubmit="submitFunction()">
+User id:<input type="text" name="userid" size="12"/></br>
+Password:<input type="password" name="passid" size="12"/></br>
+<input type="submit" name="submit" value="Submit"/></br>
+
+</form>
+</body></center>
+</html>
